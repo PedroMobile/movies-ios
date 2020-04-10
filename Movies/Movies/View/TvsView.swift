@@ -52,7 +52,7 @@ struct TvsView: View {
             }
 
             
-        }
+        }.animation(.spring())
     }
 }
 
