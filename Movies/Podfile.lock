@@ -1,0 +1,20 @@
+PODS:
+  - Cosmos (21.0.0)
+  - URLImage (0.9.13)
+
+DEPENDENCIES:
+  - Cosmos
+  - URLImage
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - URLImage
+
+SPEC CHECKSUMS:
+  Cosmos: 3dfb6e4ba48bd48b8c9aa2a77048ae11ed114f96
+  URLImage: bc851af67404bd3e8680269770d5a2c9dfaacaf2
+
+PODFILE CHECKSUM: b18f2b055bd2d9e969bbeaa1fb18942ded6bc3fd
+
+COCOAPODS: 1.8.4
