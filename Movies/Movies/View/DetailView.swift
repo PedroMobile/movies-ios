@@ -144,7 +144,7 @@ struct DetailView: View {
                                     
                                     Text("Similar:").font(.title).fontWeight(.bold)
                                     
-                                    ScrollView(.horizontal){
+                                    ScrollView(.horizontal, content: {
                                         HStack(spacing: 10) {
                                             ForEach(self.tvsSimilarVM.tvs){ tv in
                                                 
@@ -155,7 +155,7 @@ struct DetailView: View {
                                             }
                                             
                                         }
-                                    }
+                                    })
                                     
                                 }.padding(.bottom)
                                 

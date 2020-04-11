@@ -24,7 +24,7 @@ struct TvsView: View {
             NavigationView () {
                 List (self.tvsVM.tvs.enumerated().map({ $0 }), id: \.1.self.id) { (index, tv) in
                     ZStack {
-                        RowTvView(tv: tv)
+                        RowTvView(tv: tv).animation(.spring())
                             
                             .onAppear(perform: {
                         
@@ -52,7 +52,7 @@ struct TvsView: View {
             }
 
             
-        }.animation(.spring())
+        }
     }
 }
 
